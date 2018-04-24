@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Digital Grow</string>
+
+
+    <string-array name="team">
+        <item>Nik</item>
+        <item>Ravi</item>
+        <item>Nikunj</item>
+        <item>Zalak</item>
+    </string-array>
+    <string name="title_activity_navigation">NavigationActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+</resources>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "16440802058",
+    "firebase_url": "https://digitalgrow-2e2f8.firebaseio.com",
+    "project_id": "digitalgrow-2e2f8",
+    "storage_bucket": "digitalgrow-2e2f8.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:16440802058:android:7b065c06f71c5da2",
+        "android_client_info": {
+          "package_name": "com.nikpatel.digitalgrow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "16440802058-1mlc480eb97b855jordao1dvrr551jad.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.nikpatel.digitalgrow",
+            "certificate_hash": "e4392bfb1c978efd7e03655a496ae1f7ec64efb9"
+          }
+        },
+        {
+          "client_id": "16440802058-163o6idqnqf83fm8s6sah9bcg18mtnv5.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA7kqIeA1juWkapKjninCnGfolKoPK_GBo"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "16440802058-163o6idqnqf83fm8s6sah9bcg18mtnv5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

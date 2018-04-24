@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+   <LinearLayout
+       android:orientation="vertical"
+       android:layout_margin="10dp"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent">
+
+       <EditText
+           android:id="@+id/edtFirstName"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="First Name"/>
+       <EditText
+           android:id="@+id/edtLastName"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content"
+           android:hint="Last Name"/>
+
+
+       <RadioGroup
+           android:layout_marginTop="10dp"
+           android:gravity="center"
+           android:orientation="horizontal"
+           android:id="@+id/radioGroup"
+           android:layout_width="match_parent"
+           android:layout_height="wrap_content">
+           <RadioButton
+               android:id="@+id/radioMale"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Male"/>
+           <RadioButton
+               android:id="@+id/radioFemale"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:text="Female"/>
+       </RadioGroup>
+
+
+       <CheckBox
+           android:layout_gravity="center"
+           android:id="@+id/checkbox"
+           android:layout_marginTop="10dp"
+           android:text="Please Check"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content" />
+
+       <Button
+           android:background="@color/colorAccent"
+           android:layout_marginTop="30dp"
+           android:layout_gravity="center"
+           android:id="@+id/btnSubmit"
+           android:layout_width="wrap_content"
+           android:layout_height="wrap_content"
+           android:text="submit"/>
+
+
+   </LinearLayout>
+</LinearLayout>
